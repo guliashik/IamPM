@@ -1,0 +1,43 @@
+Часть 1
+
+1. Почему HTML и CSS нельзя считать полноценными
+языками программирования?
+
+Потому что с помощью них нельзя написать программу, исполняемый код. Это языки стиля и разметки, что не является программой.
+
+2. Какой формат верстки вы порекомендуете для блога?
+
+Берем все что может предложить совеременный мир - отзывяивую верстку. Таким образом наш блог можно будет читать хоть на телевизоре, хоть на утюге с wi-fi. Чем больше устройств мы поддерживаем, тем больше аудитрия. 
+
+3. Как снизить нагрузку на Back-end с помощью
+Javascript
+Можно перенести часть расчетов на сторону клиента
+
+//////////////////////////////////////////////////////////////////
+
+Часть 2
+
+#1 - CRM
+Нужна скорость и поддержка на всех устройствах, за основу берем Vue.js, поддержка API, ну и фронт на HTML и CSS. Как альтернатива подойдет и Angular - я бы взял и его, если бы на в ТЗ не было упора на скорость.
+Так же в ДЗ упоминается про быстрый поиск, работу с БД, статическая информация в виде графиков, но я исходя из лекций не понял какой стек отвечает за это, тут нужна помощь.
+
+Я бы взял: 
+1. Senior Front-end developer - Javascript, Vue.js, ES6, Rest API, HTML, CSS - основной функционал
+2. Junior Front-end developer - Javascript, jQuery, jQuery UI, ES5, HTML, CSS - подучучить и помочь
+3. Senior Front-end developer - Javascript, Typescript, Angular, Webpack, D3.js, Rest API, TrackJS, HTML, CSS, Bootstrap - модуль для отрисовки графики (d3.js)
+
+
+#2 - E-commerce
+Так как нужно отображать данные от уже готового бэка, то основу делаем на React.js, данные берем по Rest API, Упаковываем в модуль с помощью Webpack. Финансы ограничены, берем двоих:
+
+1. Senior Front-end developer - Javascript, React.js, Redux, ES6, Webpack, Node.js,
+Canvas, WebSockets, Rest API, TrackJS, HTML, CSS - Для создания ядра и API
+2. Junior Front-end developer - Javascript, jQuery, jQuery UI, ES5, HTML, CSS - создание интерефейсов
+
+#3 - Photo Gallery - делаем в формате SPA на Angular. Так же нам понадобится библиотека Canvas для обработки фото.
+
+1. Senior Front-end developer - Javascript, Typescript, Angular, Webpack, D3.js, Rest
+API, TrackJS, HTML, CSS, Bootstrap
+2. Senior Front-end developer - Javascript, React.js, Redux, ES6, Webpack, Node.js,
+Canvas, WebSockets, Rest API, TrackJS, HTML, CSS
+3. Middle Front-end developer - Javascript, Typescript, Angular, Webpack, Bootstrap
